@@ -1,0 +1,90 @@
+/* Made the container border orange and added padding so the navbar wouldn't cover the container */
+div[class^="container"]{
+    border: 5px solid #DA8F0D;
+    padding-top: 106px;
+}
+/* Made each row black */
+.row {
+    border: 5px solid #DA8F0D;
+}
+/* Added a white border to each column */
+div[class^="col"] {
+    border: 5px solid white;
+}
+main {
+    /* Added sans-serif fonts to the main text */
+    font-family: "Afta Sans", "Futura" Sans-Serif;
+    background-color: royalblue;
+    color: black;
+}
+/* Made the navbar collapse when in mobile view */
+div[class="collapse navbar-collapse"] {
+    border: none;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.navbar {
+    background-color: royalblue;
+    border: 0.5px solid orange;
+    /* Hockey jersey custom font */
+    font-family: 'Graduate', cursive;
+}
+/* Made the title text black */
+.navbar-brand {
+    color: black;
+}
+/* Made the navbar link text black */
+.nav-link {
+    color: black;
+}
+/* Carousel CSS */
+.carousel-caption {
+	/*top: 0;*/
+	bottom: 0;
+}
+.carousel-indicators {
+	top: 0;
+}
+/* Made all the carousel images the same size */
+#carouselGretzky img {
+    height: 500px;
+    width: 780px;
+}
+/* Changed accordian card-header colour to royalblue to match the rest of the main section */
+.card-header {
+    background-color: royalblue;
+}     
+/* Tab CSS */
+/* Changed tab colours */
+div.tab {
+    overflow: hidden;
+    border: none;
+    background-color: white;
+}
+/* Made the button transition 0.2s */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.2s;
+}
+/* Made the background colour of buttons lightgrey on hover */
+div.tab button:hover {
+    background-color: lightgrey;
+}
+/* Made an active tablink class */
+div.tab button.active {
+    background-color: lightgrey;
+}
+/* Gave the tab content no border for a more clean look */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
